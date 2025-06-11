@@ -23,14 +23,14 @@ This could then be used to display weather information on an e-ink display or si
 1.  **Clone the repository:**
 
     ```sh
-    git  clone  https://github.com/jsrobertson/weather-snap.git
-    cd  weather-snap
+    git clone https://github.com/jsrobertson/weather-snap.git
+    cd weather-snap
     ```
 
 2.  **Install dependencies:**
 
     ```sh
-    pip  install  -r  requirements.txt
+    pip install -r requirements.txt
     ```
 
 3.  **Set up environment variables:**
@@ -62,14 +62,14 @@ This could then be used to display weather information on an e-ink display or si
 - Chromium binary is usually at `/usr/bin/chromium-browser` or `/usr/bin/chromium`
 - Chromedriver is usually at `/usr/lib/chromium-browser/chromedriver` or `/usr/bin/chromedriver`
 
-  Update the `weather.py` script if necessary to match these paths.
+  Update `weather.py` if necessary to match these paths.
 
 ## Usage
 
 Run the script:
 
 ```sh
-python  weather.py
+python weather.py
 ```
 
 The script will fetch the weather, render `templates/index.jinja` with the temperature, and save a screenshot as `output/screenshot.png`.
