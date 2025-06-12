@@ -44,8 +44,8 @@ This could then be used to display weather information on an e-ink display or si
     Edit `.env` and set your City and OpenWeather API Key:
 
     ```env
-    CITY=City
-    OPENWEATHER_API_KEY=your_OPENWEATHER_API_KEY_here
+    CITY=your_city_here
+    OPENWEATHER_API_KEY=your_openweather_api_key_here
     ```
 
 4.  **Install Chromium and Chromedriver:**
